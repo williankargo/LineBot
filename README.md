@@ -3,7 +3,7 @@
 It is a chatbot running in Line, and it can report your daily horoscope based on your zodiac sign and gives you some hints to get through your day.
 ## 1. How did I make it?
 I wrote JavaScript code in `Google Apps Script` to generate a webhook URL, and pasted it on `Line Developer` setup page. I also connected `FireBase` to `Google Apps Script` to store user's data, and connecting `Google Cloud PlateForm` to check logs.  
-![structure](LineBot/lineBot.drawio.png)
+![structure](/lineBot.drawio.png)
 ## 2. How to run it?
 ### (0) setup your `LINE OA` / `LINE Developer` / `Google Apps Script` / `FireBase` / `Google Cloud PlateForm`
 
