@@ -10,7 +10,7 @@ function doGet() {
 // doPost
 function doPost(e) {
 
-  // 引號內放你的 LINE BOT Access Token
+  // put in your own LINE BOT Access Token
   var CHANNEL_ACCESS_TOKEN = 'LINE BOT Access Token';
 
   // 以 JSON 格式解析 User 端傳來的 e 資料
@@ -66,8 +66,8 @@ function doPost(e) {
 
   // FireBase as DB
   // 在firebase頁面建立Realtime Database後 > 專案設定 > 服務帳戶 取得密鑰和url(記得最後補上/)
-  const fb_secret = 'FireBase密鑰';
-  const firebaseUrl = 'FireBase DataBase';
+  const fb_secret = 'FireBase secret key';
+  const firebaseUrl = 'FireBase DataBase url';
   var firebase = FirebaseApp.getDatabaseByUrl(firebaseUrl, fb_secret);
   // method:
   // #1 firebase set 原有的資料整個覆蓋
@@ -489,12 +489,12 @@ function doPost(e) {
     }
   }
 
-  // 呼叫星座API
+  // call Horoscope API
   // type: day, week, month
   // dateTime: ex:20200106
-  // starType: 星座的英文，ex: Capricorn
+  // starType: ex: Capricorn
   function getDailyHoroscope(type, dateTime, starType) {
-    var url = '放上星座API';
+    var url = 'Horoscope API';
     var formData = {
       'type': type,
       'dateTime': dateTime,
