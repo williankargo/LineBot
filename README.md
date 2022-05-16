@@ -74,6 +74,6 @@ https://mature-story-0aa.notion.site/Line-87de6291e7034108bb3476a3ac7aacf4
 ## 3. Let's play the Bot!
 [Click Me to play Daily Horoscope LineBot](https://liff.line.me/1645278921-kWRPP32q/?accountId=642flngn)  
 Some screentshoot examples:  
-![screenshoot1](/README_PICTUR/screenshoot1.png)
-![screenshoot3](/README_PICTUR/screenshoot3.png)
-![screenshoot2](/README_PICTUR/screenshoot2.png)
+![screenshoot1](/README_PICTURE/screenshoot1.png)
+![screenshoot3](/README_PICTURE/screenshoot3.png)
+![screenshoot2](/README_PICTURE/screenshoot2.png)
